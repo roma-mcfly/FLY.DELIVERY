@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <title>FLY.DELIVERY</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">FLY.DELIVERY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="/Restaurants/RestaurantsList">Все</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Restaurants/RestaurantsList/sushi">Cуши</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Restaurants/RestaurantsList/pizza">Пицца</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Restaurants/RestaurantsList/burgers">Бургеры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Restaurants/RestaurantsList/other">Другое</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/DeliveryCard">Корзина</a>
+                    </li>
+                </ul>
+
+                <a href="#footer" class="nav-link icon">
+                    <img src="~/img/Icons/phone.png" alt="phone" typeof="submit">
+                </a>
+
+                <form asp-controller="Search" asp-action="SearchResult" class="form-inline">
+                    <div class="input-wrapper" data-text="">
+                        <input type="text" class="new-input" placeholder="Поиск…" name="inputValue">
+                    </div>
+                    <button class="btn-secondary" style="width:80px; height:40px; background-color: dimgrey" type="submit">Поиск</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="align-items-center">
+        @RenderBody()
+    </div>
+    <script type="text/javascript">
+        const wrapper = document.querySelector(".input-wrapper"),
+            textInput = document.querySelector("input[type='text']");
+
+        textInput.addEventListener("keyup", event => {
+            wrapper.setAttribute("data-text", event.target.value);
+        });
+    </script>
+
+</body>
+</html>

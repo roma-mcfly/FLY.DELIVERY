@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <title>FLY.DELIVERY</title>
+</head>
+<body>
+    <section class="search-resul">
+        <h2 class="block-title">@Model.Message</h2>
+        @{
+            if (Model.Message == "Результат поиска")
+            {
+                <p class="text-center black">
+                    <span>Выбирай</span> позицию и переходи к заказу!
+                </p>
+            }
+            if (Model.Message == "Вы ничего не ввели!")
+            {
+                <p class="text-center black">
+                    <span>У нас</span> есть из чего выбрать!
+                </p>
+            }
+        }
+        <div class="row mt-5 mb-2">
+            @{
+                if (Model.Message == "По данному запросу ничего не найдено!")
+                {
+                    <img src="../img/Icons/smile.png" alt="smile" style="margin:auto; padding-top: 20px;" />
+                }
+                else
+                {
+                    foreach (Restaurant rest in Model.AllRestaurants)
+                    {
+                        @Html.Partial("AllRestaurants", rest)
+                    }
+                    foreach (Dish rest in Model.AllDishes)
+                    {
+                        @Html.Partial("AllDishes", rest)
+                    }
+                }
+            }
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="phone-contact" style="margin-top: 55px">
+            <a href="tel:+375447473028">+375 44 747 30 28</a>
+            <p class="text-phone" style="font-size: 20px"><span>Не нашёл любимое блюдо?</span> - звони и мы решим этот вопрос!</p>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("a.nav-link").click(function () {
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top + "px"
+                }, {
+                    duration: 1000,
+                    easing: "swing"
+                });
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>

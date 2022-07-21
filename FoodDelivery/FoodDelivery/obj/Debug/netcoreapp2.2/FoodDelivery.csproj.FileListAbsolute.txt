@@ -1,0 +1,83 @@
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.deps.json
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.runtimeconfig.json
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.runtimeconfig.dev.json
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.dll
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.pdb
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.AssemblyInfo.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorTargetAssemblyInfo.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.dll
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.pdb
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.genruntimeconfig.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.Views.dll
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.Views.pdb
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.TagHelpers.input.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.TagHelpers.output.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorCoreGenerate.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Restaurants\RestaurantsList.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorTargetAssemblyInfo.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.Views.pdb
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.csproj.CopyComplete
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\dbsettings.json
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\AllRestaurants.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\DeliveryCard\Index.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Order\Checkout.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\AllDishes.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Dishes\DishesList.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Order\Complete.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.csprojAssemblyReference.cache
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Search\SearchResult.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Dishes\SortedDishesList.cshtml.g.cs
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\libman.json
+C:\Users\User\source\repos\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\web.config
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\web.config
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\dbsettings.json
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\libman.json
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.deps.json
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.runtimeconfig.json
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.runtimeconfig.dev.json
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.dll
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.pdb
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.Views.dll
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp2.2\FoodDelivery.Views.pdb
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.csproj.AssemblyReference.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.GeneratedMSBuildEditorConfig.editorconfig
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.AssemblyInfoInputs.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.AssemblyInfo.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.csproj.CoreCompileInputs.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorAssemblyInfo.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorAssemblyInfo.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.TagHelpers.input.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.TagHelpers.output.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorCoreGenerate.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\DeliveryCard\Index.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Dishes\DishesList.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Dishes\SortedDishesList.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Order\Checkout.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Order\Complete.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Restaurants\RestaurantsList.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Search\SearchResult.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\AllDishes.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\AllRestaurants.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorTargetAssemblyInfo.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.RazorTargetAssemblyInfo.cs
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.Views.pdb
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.dll
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.pdb
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.genruntimeconfig.cache
+E:\Дипломный проект МКП 2021\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp2.2\FoodDelivery.csproj.CopyComplete

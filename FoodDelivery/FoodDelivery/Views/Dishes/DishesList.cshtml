@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <section class="dishes-list">
+        <h2 class="block-title"><img class="rest-mainImg" src="@Model.imgRestaurant"></h2>
+        <h2 class="block-underImg">@Model.RestaurantName</h2>
+        <p class="text-center black" style="font-size: 23px;">
+            @Model.longDescRestaurant
+        </p>
+        <p class="text-center black">
+            <span>Адрес: </span>&nbsp;@Model.addressRestaurant
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>Время работы: </span>&nbsp;@Model.workingTimeRestaurant
+        </p>
+    </section>
+    <div class="sorting">
+        <form asp-controller="Dishes" asp-action="SortedDishesList" asp-route-restName="@Model.RestaurantName">
+            <div class="block-sortSelect">
+                <p>Сортировать по:</p>
+                <select name="sortValue" class="col-form-label">
+                    <option value="default">-выберете значение-</option>
+                    <option value="nameFirst">названию (А-Я)</option>
+                    <option value="nameLast">названию (Я-А)</option>
+                    <option value="priceLow">цене (низкая > высокая)</option>
+                    <option value="priceUp">цене (высокая > низкая)</option>
+                </select>
+                <button class="main-btn" type="submit" style="margin-left: 30px;">Сортировать</a></button>
+            </div>
+        </form>
+    </div>
+    <div class="row mt-5 mb-2">
+        @{
+            foreach (Dish dish in Model.AllDishes)
+            {
+                @Html.Partial("AllDishes", dish)
+            }
+        }
+    </div>
+    <section class="footer" id="footer">
+        <div class="phone-contact" style="margin-top: 55px">
+            <a href="tel:+375447473028">+375 44 747 30 28</a>
+            <p class="text-phone" style="font-size: 20px"><span>Иногда бывает сложно</span> определиться с выбором - звони и мы поможем!</p>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("a.nav-link").click(function () {
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top + "px"
+                }, {
+                    duration: 1000,
+                    easing: "swing"
+                });
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>
+

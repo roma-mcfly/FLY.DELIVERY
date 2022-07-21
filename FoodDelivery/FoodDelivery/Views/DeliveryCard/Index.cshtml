@@ -1,0 +1,74 @@
+﻿@model DeliveryCardViewModel
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <section class="delivery-card">
+        <h2 class="block-title">Корзина</h2>
+        @{ if (Model.deliveryCard.listDeliveryItems.Count <= 0)
+            {
+                <p class="text-center black">
+                    <span>В Вашей</span> корзине отсутствуют товары!
+                </p>
+                <div class="row mt-5 mb-2">
+                    <img src="../img/Icons/cart.png" alt="cart" style="margin:auto; padding-top: 20px;" />
+                </div>
+            }
+            else
+            {
+                <div class="container mt-5">
+                    @{int allprice = 0;
+                        foreach (var el in Model.deliveryCard.listDeliveryItems)
+                        {
+                            {
+                                allprice = allprice + @el.dish.price;
+                            }
+                            <div class="alert alert-warning" style="background-color: #fcf693; padding-bottom: 30px;">
+                                <img class="order-image" src="@el.dish.img">
+                                <div class="order-desc">
+                                    <p><b>Наименование:</b> <span-black>@el.dish.name</span-black></p>
+                                    <p><b>Вес:</b> @el.dish.weight гр.<br /><p>
+                                    <p><b>Цена:</b> <span>@el.dish.price руб.</span><p>
+                                </div>
+                            </div>
+                        }
+                        <hr />
+                        <b class="order-price" style="font-size: 20px; font-family: MontserratBold, sans-serif;">Сумма заказа: &ensp; <span>@allprice руб.</span></b> <br />
+                        <button class="main-btn" style="font-family: MontserratBold, sans-serif; margin-top: 20px"> <a asp-controller="Order" asp-action="Checkout">Оформить</a></button>
+                    }
+                </div>
+            }
+        }
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="phone-contact" style="margin-top: 55px">
+            <a href="tel:+375447473028">+375 44 747 30 28</a>
+            <p class="text-phone" style="font-size: 20px"><span>Проблемы с добавлением в корзину?</span> - звони, мы всегда готовы помочь!</p>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("a.nav-link").click(function () {
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top + "px"
+                }, {
+                    duration: 1000,
+                    easing: "swing"
+                });
+                return false;
+            });
+        });
+    </script>
+
+</body>
+</html>

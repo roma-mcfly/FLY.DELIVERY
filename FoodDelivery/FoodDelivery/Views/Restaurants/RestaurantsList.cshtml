@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <section class="restaurant-list">
+        <h2 class="block-title">@Model.FoodCategory</h2>
+        @{
+            if (@Model.FoodCategory == "Все рестораны")
+            {
+                <p class="text-center black">
+                    <span>У нас</span> действительно есть из чего выбрать!
+                </p>
+            }
+            else if (@Model.FoodCategory == "Суши")
+            {
+                <p class="text-center black">
+                    <span>СУШИ</span> - прямиком из Японии! 
+                </p>
+            }
+            else if (@Model.FoodCategory == "Пицца")
+            {
+                <p class="text-center black">
+                    <span>ПИЦЦА</span> - мать итальянской кухни! 
+                </p>
+            }
+            else if (@Model.FoodCategory == "Бургеры")
+            {
+                <p class="text-center black">
+                    <span>БУРГЕРЫ</span> - американская классика ждёт тебя! 
+                </p>
+            }
+            else if (@Model.FoodCategory == "Другое")
+            {
+                <p class="text-center black">
+                    <span>Здесь</span> ты точно найдешь, что искал!
+                </p>
+            }
+        }
+        <div class="row mt-5 mb-2">
+            @{
+                foreach (Restaurant rest in Model.AllRestaurants)
+                {
+                    @Html.Partial("AllRestaurants", rest)
+                }
+            }
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="phone-contact" style="margin-top: 55px">
+            <a href="tel:+375447473028">+375 44 747 30 28</a>
+            <p class="text-phone" style="font-size: 20px"><span>Иногда бывает сложно</span> определиться с выбором - звони и мы поможем!</p>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("a.nav-link").click(function () {
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top + "px"
+                }, {
+                    duration: 1000,
+                    easing: "swing"
+                });
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>
